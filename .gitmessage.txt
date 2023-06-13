@@ -1,0 +1,32 @@
+###########################################
+# <emoji> <type>: <subject>
+
+# [optional body]
+
+# [optional footer]
+###########################################
+
+# 위와 같은 구조로 커밋을 작성해 주세요.
+# subject에는 마침표를 생략합니다.
+
+################ emoji & type list ################
+# 🏗 build    : build system과 관련된 코드 수정 (gulp, Jenkinsfile, Dockerfile 등)
+# 👷 ci       : ci 설정 파일 혹은 스크립트 수정 (Jenkinsfile, Circle, Travis 등)
+# 📝 docs     : 문서 수정 (markdown, txt 파일 등)
+# ✨ feat     : 새로운 기능 개발
+# 🐛 fix      : 버그 픽스
+# 🚑 hotfix   : Hot 픽스
+# ⚡️ perf      : 퍼포먼스 향상을 위한 코드 수정
+# ♻️ refactor  : 버그 픽스 혹은 새로운 기능 개발이 아닌 코드 수정
+# 💄 style    : 코드가 가진 의미에 영향을 주지 않는 코드 수정 (공백, 포매팅, 세미콜론 등)
+# ✅ test     : 이전에 추가하지 못한 테스트 코드 추가 혹은 존재하던 테스트 코드 올바르게 수정
+# 🍰 sample   : sample 코드 수정
+# 🙈 chore    : 그 외의 단순한 수정 (.gitignore 수정 등)
+
+################# example #################
+# ✨ feat: graphql-api-template base foundation & architecture
+#
+# writing the base foundation and architecture for a graphql-api-template, 
+# intended for the independent construction of repositories for each service under the same format, 
+# in the context of microservice architecture.
+###########################################
