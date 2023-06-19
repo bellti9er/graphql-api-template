@@ -1,6 +1,6 @@
 import { Connection, QueryRunner } from 'typeorm';
 
-type ObjectLiteral = { [key: string] : any };
+type ObjectLiteral = { [key: string]: any };
 interface NotSelectResult { insertId: number; affectedRows: number; }
 interface Action<T> { (queryRunner: QueryRunner): Promise<T> }
 
