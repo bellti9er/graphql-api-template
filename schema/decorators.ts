@@ -19,7 +19,6 @@ export function LoginRequired() {
       throw new Error(ErrorMessages.Login.NOT_AUTHORIZED)
     }
 
-    console.log(accessToken)
     try {
       const decoded = jwt.verify(accessToken, (context as Context).api.context.configs.JWT_SECRET_KEY) as JWTDecoded
 
