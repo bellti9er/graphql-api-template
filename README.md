@@ -5,6 +5,13 @@ graphql-api-template은 MSA(MicroService Architecture) 형태의 서비스 개�
 
 </br>
 
+### 🚧 TODO 🚧
+
+- write Jenkinsfile for CI/CD
+- write deploy.sh script for Jenkinsfile to excecute 
+
+</br>
+
 # Getting Started
 1. Clone the repository
 
